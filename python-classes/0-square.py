@@ -5,5 +5,5 @@ this code contains blank class
 
 
 class Square():
-  """This is the empty class"""
- pass
+	"""This is the empty class"""
+ 	pass
