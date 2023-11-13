@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-this code contains blank class
+This code contains blank class
 """
 
 
 class Square():
-	"""This is the empty class"""
- 	pass
+    """
+    CLASS IS A SQUARE CLASS AND IS EMPTY
+    """
