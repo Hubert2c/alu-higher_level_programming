@@ -51,3 +51,18 @@ class Square:
                 raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
+    def my_print(self):
+        if self.__size == 0:
+            print()
+        else:
+            counter = self.__size
+            startsize = self.__size
+            coun_num = 0
+            while self.__size > coun_num:
+                while counter > 0:
+                    print("#", end="")
+                    counter -= 1
+                print()
+                counter = startsize
+                self.__size -= 1
